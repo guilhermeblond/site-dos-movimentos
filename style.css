@@ -1,0 +1,40 @@
+body{
+    background-color: aliceblue;
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/3581040-nature-landscape-with-sky-background-vector-illustration-cartoon-nature-scene-with-street-meadown-with-hills-in-summer-nature-landscape-with-road-on-summer-day-vetor.jpg);
+
+
+}
+img{
+    width: 180px;
+    position: absolute;
+    bottom: 5px;
+    animation: movimento 7s ease;
+    background: size 10px;
+
+}
+@keyframes movimento {
+    from{
+        transform: translate(0,0);
+    }
+    to{
+        transform: translate(calc(100vw - 180px),-0px);
+    }
+}
+header img{
+    margin-left: 50%;
+    width: 180px;
+    bottom: 5px;
+    animation: movimento 7s ease;
+    
+
+}
+@keyframes movimento {
+    
+    from{
+        transform: translate(0,0);
+        
+    }
+    to{
+        transform: translate(calc(100vw + 180px),-50px);
+    }
+}
